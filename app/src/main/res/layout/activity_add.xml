@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFF6FAFF"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <EditText
+            android:id="@+id/title_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:minHeight="48dp"
+            android:maxWidth="600dp"
+            android:layout_gravity="center_horizontal"
+            android:padding="8dp"
+            android:hint="@string/title_hint"
+            android:inputType="textCapSentences"
+            android:importantForAutofill="yes"
+            android:textColor="#FF000000"
+            android:textColorHint="@android:color/darker_gray" />
+
+        <EditText
+            android:id="@+id/description_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:minHeight="48dp"
+            android:maxWidth="600dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            android:hint="@string/description_hint"
+            android:inputType="textMultiLine"
+            android:importantForAutofill="yes"
+            android:textColor="#FF000000"
+            android:textColorHint="@android:color/darker_gray" />
+
+        <EditText
+            android:id="@+id/due_date_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:minHeight="48dp"
+            android:maxWidth="600dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            android:hint="@string/due_date_hint"
+            android:inputType="date"
+            android:importantForAutofill="yes"
+            android:textColor="#FF000000"
+            android:textColorHint="@android:color/darker_gray" />
+
+        <CheckBox
+            android:id="@+id/completed_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/completed_text"
+            android:textColor="#FF000000" />
+
+        <EditText
+            android:id="@+id/contact_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:minHeight="48dp"
+            android:maxWidth="600dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:padding="8dp"
+            android:hint="@string/label_contact"
+            android:inputType="textPersonName"
+            android:focusable="false"
+            android:cursorVisible="false"
+            android:background="?android:attr/editTextBackground"
+            android:textColor="#FF000000" />
+
+        <Button
+            android:id="@+id/button_select_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxWidth="600dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:text="@string/button_select_contact"
+            android:backgroundTint="@color/purple_500"
+            android:textColor="#FF000000" />
+
+        <Button
+            android:id="@+id/button_create_contact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxWidth="600dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:text="@string/button_create_contact"
+            android:backgroundTint="@color/purple_500"
+            android:textColor="#FF000000" />
+
+        <Button
+            android:id="@+id/save_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxWidth="600dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:minHeight="48dp"
+            android:padding="8dp"
+            android:text="@string/save_button_text"
+            android:backgroundTint="@color/purple_500"
+            android:textColor="#FF000000" />
+
+    </LinearLayout>
+</ScrollView>

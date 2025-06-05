@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF6FAFF"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <!-- Tiêu đề công việc -->
+        <EditText
+            android:id="@+id/title_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:autofillHints="username"
+            android:hint="@string/hint_title"
+            android:inputType="textCapSentences"
+            android:maxWidth="600dp"
+            android:minHeight="48dp"
+            android:textColor="#FF000000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!-- Mô tả -->
+        <EditText
+            android:id="@+id/description_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:autofillHints="description"
+            android:hint="@string/hint_description"
+            android:inputType="textMultiLine"
+            android:maxWidth="600dp"
+            android:minHeight="48dp"
+            android:textColor="#FF000000" />
+
+        <!-- Ô liên hệ có thể bấm để chọn từ danh bạ -->
+        <EditText
+            android:id="@+id/contact_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:background="?android:attr/editTextBackground"
+            android:cursorVisible="false"
+            android:focusable="true"
+            android:clickable="true"
+            android:hint="@string/label_contact"
+            android:inputType="textPersonName"
+            android:maxWidth="600dp"
+            android:minHeight="48dp"
+            android:textColor="#FF000000" />
+
+        <!-- Ngày kết thúc -->
+        <EditText
+            android:id="@+id/due_date_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:autofillHints="date"
+            android:hint="@string/hint_due_date"
+            android:inputType="date"
+            android:maxWidth="600dp"
+            android:minHeight="48dp"
+            android:textColor="#FF000000" />
+
+        <!-- Checkbox hoàn thành -->
+        <CheckBox
+            android:id="@+id/completed_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/label_done"
+            android:textColor="#FF000000" />
+
+        <!-- Nút lưu -->
+        <Button
+            android:id="@+id/save_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="?attr/colorPrimary"
+            android:maxWidth="600dp"
+            android:text="@string/button_save"
+            android:textColor="?android:attr/textColorPrimaryInverse" />
+    </LinearLayout>
+</ScrollView>

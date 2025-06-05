@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">ToDoApp</string>
+    <string name="add_todo">Add</string>
+    <string name="title_hint">Topic</string>
+    <string name="description_hint">Description</string>
+    <string name="due_date_hint">Due</string>
+    <string name="completed_text">Done</string>
+    <string name="save_button_description">Save Task</string>
+    <string name="back_button_description">Back</string>
+    <string name="save_button_text">Save</string>
+    <string name="detail_title">Task Details</string>
+    <string name="hint_topic">Topic</string>
+    <string name="hint_description">Description</string>
+    <string name="hint_due">Due</string>
+    <string name="switch_complete">Done</string>
+    <string name="button_save">Save</string>
+    <string name="app_title">Task List</string>
+    <string name="add_button_description">Add new task</string>
+    <string name="add_button_text">Add Task\n</string>
+    <string name="title_required_message">Title is required</string>
+    <string name="saved_message">Saved: %1$s</string>
+    <string name="selected_contact_format">Contact: %1$s - %2$s</string>
+    <string name="hint_title">Title</string>
+    <string name="hint_due_date">Due date (dd/MM/yyyy)</string>
+    <string name="label_contact">Contact: name - phone</string>
+    <string name="label_done">Done</string>
+    <string name="t_o_li_n_h_m_i">➕ Tạo liên hệ mới</string>
+    <string name="button_select_contact">Select Contact</string>
+    <string name="button_create_contact">Create New Contact</string>
+</resources>
